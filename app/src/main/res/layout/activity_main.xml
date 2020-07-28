@@ -13,35 +13,40 @@
         android:id="@+id/btn_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button1"></Button>
+        android:text="정국"></Button>
 
     <Button
         android:id="@+id/btn_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button2"></Button>
+        android:text="뷔"></Button>
 
     <Button
         android:id="@+id/btn_three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button3"></Button>
+        android:text="지민"></Button>
 
     <Button
         android:id="@+id/btn_four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button4"></Button>
+        android:text="슈가"></Button>
 
     <Button
         android:id="@+id/btn_five"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button5"></Button>
+        android:text="진"></Button>
     <Button
         android:id="@+id/btn_six"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button6"></Button>
+        android:text="RM"></Button>
+    <Button
+        android:id="@+id/btn_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제이홉"></Button>
 
 </LinearLayout>
