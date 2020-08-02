@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.listview_item.*
 import kotlinx.android.synthetic.main.listview_item.view.*
@@ -48,6 +49,9 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+        listView.setOnItemClickListener { parent, view, position, id ->
+            Toast.makeText(this, arr.get(position), Toast.LENGTH_LONG).show()
+        }
     }
     inner class MainListviewAdapter(val context : Context, val list : ArrayList<String>) : BaseAdapter(){
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
